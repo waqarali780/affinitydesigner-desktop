@@ -1,0 +1,15 @@
+# Do not edit manually
+# Text file normalization
+# Exclude build artifacts
+*.png binary
+*.woff binary
+*.json linguist-detectable=false
+*.min.js linguist-generated
+*.css linguist-detectable
+
+themes/**/*.css linguist-detectable
+*.htm linguist-vendored
+
+*.jpeg binary
+go.sum linguist-generated
+# eof 96bc642b
